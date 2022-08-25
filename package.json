@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@polymer/lit-element": "0.5.2",
+    "@polymer/paper-checkbox": "3.0.0-pre.21",
     "@webcomponents/webcomponentsjs": "2.0.2"
   }
 }
