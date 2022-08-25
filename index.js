@@ -10,7 +10,9 @@ class MyElement extends LitElement {
   }
   _render({feeling}) {
     return html`<h1>Hello World! I am feeling ${feeling}</h1>
-      <paper-checkbox>Ready to deploy</paper-checkbox>`;
+      <slot name="slot1"></slot>
+      <paper-checkbox><slot></slot></paper-checkbox>
+      <slot name="slot2"></slot>`;
   }
 }
 
